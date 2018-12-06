@@ -1,1 +1,1 @@
-# JavaScript Sandbox for [*Algorithms Illuminated*](http://www.algorithmsilluminated.org/)
+## JavaScript Sandbox for [*Algorithms Illuminated*](http://www.algorithmsilluminated.org/)
