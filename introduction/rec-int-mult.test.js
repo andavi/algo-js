@@ -3,7 +3,7 @@ function recIntMult(x, y) {
   const n = String(x).length > String(y).length ? String(x).length : String(y).length;
 
   // Base case
-  if (n === 1) return x * y;
+  if (String(x).length ===1 || String(y).length === 1) return x * y;
 
   // Recursive case
   const a = Number(String(x).slice(0, n / 2));
@@ -21,7 +21,6 @@ function recIntMult(x, y) {
           + bd;
 }
 
-console.log(recIntMult(1234, 5678));
 
 // ====================================================================
 // TESTS
